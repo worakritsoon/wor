@@ -1,0 +1,32 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Tab 2
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-slides pager="true">
+ 
+    <!-- Slide 1 -->
+    <ion-slide>
+      <ion-text color="dark">
+        <h1>Hey there!</h1>
+        <p>This is an epic app because...</p>
+        <ion-button (click)="next()" fill="outline" >Next</ion-button>
+      </ion-text>
+    </ion-slide>
+ 
+    <!-- Slide 2 -->
+    <ion-slide>
+      <ion-text color="Dark">
+        <h1>It's Ionic!</h1>
+        <p>... it shows all the basics you need!</p>
+        <ion-button (click)="start()" fill="outline" >Start</ion-button>
+      </ion-text>
+    </ion-slide>
+ 
+  </ion-slides>
+
+</ion-content>
