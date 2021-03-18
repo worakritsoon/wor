@@ -1,7 +1,0 @@
-{
-  "name": "pworld",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
-}
