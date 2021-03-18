@@ -1,9 +1,16 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>Main</ion-title>
-  </ion-toolbar>
-</ion-header>
 
 <ion-content>
+  <ion-list>
+    <ion-card>
+      <ion-card-title>Awesome Title</ion-card-title>
+    </ion-card>
+  </ion-list>
 
+
+   <!-- fab placed to the bottom end -->
+   <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button (click)="getUser()">
+      <ion-icon name="cube"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
 </ion-content>

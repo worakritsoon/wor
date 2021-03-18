@@ -18,4 +18,8 @@ export class Tab2Page {
   next() {
     this.slides.slideNext();
   }
+
+  prev(){
+    this.slides.slidePrev();
+  }
 }
